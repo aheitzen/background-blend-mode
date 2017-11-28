@@ -1,0 +1,37 @@
+html, body {
+	height: 80%;
+	width: 100%;
+	background-image: url("../img/tattoo_back.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-size: cover;
+	background-color: red; 
+    background-blend-mode: multiply;
+}
+
+h1 {
+	font-family: 'Permanent Marker', cursive;
+	mix-blend-mode: color-burn;
+	color:  #800000;
+	font-size: 90px;
+	margin-left: 100px;
+	margin-top: 80px;
+}
+
+h1#margin-small {
+	margin-left: 250px;
+}
+
+h1#margin-medium {
+	margin-left: 370px;
+}
+
+@media (max-width: 420px) {
+	h1, h1#margin-small, h1#margin-medium {
+		margin-left: 0;
+		font-size: 62px;
+	}
+}
+
+
